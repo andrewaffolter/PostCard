@@ -61,6 +61,15 @@
                                     <rect key="frame" x="9" y="371" width="347" height="30"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yB2-bb-PLM">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="24" y="173" width="199" height="26"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -70,6 +79,7 @@
                                 <exclude reference="T8b-ux-ddB"/>
                                 <exclude reference="7rn-Ed-Ffn"/>
                                 <exclude reference="D7I-AP-Vrr"/>
+                                <exclude reference="yB2-bb-PLM"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,6 +89,7 @@
                                 <include reference="T8b-ux-ddB"/>
                                 <include reference="7rn-Ed-Ffn"/>
                                 <include reference="D7I-AP-Vrr"/>
+                                <include reference="yB2-bb-PLM"/>
                             </mask>
                         </variation>
                     </view>
@@ -87,6 +98,7 @@
                         <outlet property="enterNameTextField" destination="801-7E-jkJ" id="aOC-ZG-ns8"/>
                         <outlet property="mailButton" destination="T8b-ux-ddB" id="gcb-vZ-uZn"/>
                         <outlet property="messageLabel" destination="7rn-Ed-Ffn" id="WHl-NC-MIE"/>
+                        <outlet property="nameLabel" destination="yB2-bb-PLM" id="4f3-cE-Eda"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -102,6 +114,7 @@
                         <viewControllerLayoutGuide type="bottom" id="bvh-7I-TNy"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="euo-Ql-Tgt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SagradaFamilia.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mCN-Bd-ek7">
